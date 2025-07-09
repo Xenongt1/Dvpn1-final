@@ -1,0 +1,51 @@
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
+
+# Distribution files
+vpn-desktop-app/dist/
+vpn-desktop-app/dist/win-unpacked.zip
+vpn-desktop-app/dist/win-unpacked/
+*.exe
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+*.pyc
+
+# Logs
+*.log
+logs/
+log/
+
+# Sensitive files
+*.conf
+*.ovpn
+client-keys/
+*-private.key
+*-public.key
+
+# Build artifacts
+dist/
+build/
+*.pyd
+*.dll
